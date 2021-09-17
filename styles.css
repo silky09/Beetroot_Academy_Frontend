@@ -1,13 +1,14 @@
 body {
   font-family: sans-serif;
   background-color: #000;
+  text-align: center;
 } 
 
 h1, p, a, h2{
   font-family: cursive;
   color: white;
 }
-
+ 
 strong {
   color: blue;
 }
@@ -25,9 +26,10 @@ h2{
   text-shadow: 2px 2px 5px yellow;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.intro{
+/* .intro {
   text-align: center;
-}
+  
+} */
 p{
   font-size: 20px;
 }
@@ -45,12 +47,15 @@ border-radius: 7px;
 position: relative;
 color: #fff;
 font-size: 12.5px;
-margin: 5px;
+margin-left: 30px;
+margin-top: 30px;
 background-color: lavender;
-box-shadow: 0 5px 7px 0 rgb(112, 224, 177);;
+box-shadow: 0 5px 7px 0 gray;
 }
 
-
+.card:hover {
+  transform: scale(1.1) rotate(-2deg);
+}
 .bottom-right {
   position: absolute;
   bottom: 15px;
@@ -87,7 +92,7 @@ img {
 }
 
 img:hover {
-  transform: scale(2,2) rotate(-5deg);
+  transform: scale(2,2);
   transition: .3s transform;
   color: #000;
 }
